@@ -1,0 +1,7 @@
+[2026-09-07T21:08:35Z] === AST ITERATION 1 START | repo=rust-lang/regex sha=ee6aa55e ===
+[2026-09-07T21:08:35Z] [iter=1] PHASE START: ast repo=rust-lang/regex sha=ee6aa55e
+[2026-09-07T21:08:35Z] [iter=1] Building AST aggregate chunks
+[2026-09-07T21:13:44Z] [iter=1] AST chunks built count=1 triples=4217494
+[2026-09-07T21:13:44Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/ee6aa55e01786e4d2c11eb1be805835bbb3bfa99/.complete
+[2026-09-07T21:13:44Z] [iter=1] PHASE END: ast elapsed_s=309 elapsed_min=5.1
+[2026-09-07T21:13:44Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
