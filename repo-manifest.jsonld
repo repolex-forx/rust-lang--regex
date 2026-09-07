@@ -1383,8 +1383,9 @@
     {
       "@id": "https://repolex.ai/r/rust-lang/regex/commit/2aaa18dfaeda7a07202f1c8a0d7a7a10116d5153",
       "git:hexsha": "2aaa18dfaeda7a07202f1c8a0d7a7a10116d5153",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "rure-0.2.5"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "rure-0.2.5",
+      "repolex:parsedAt": "2026-09-07T14:03:22.021052+00:00"
     }
   ]
 }
