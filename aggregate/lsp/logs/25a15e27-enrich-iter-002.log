@@ -1,0 +1,70 @@
+[2026-09-08T07:04:28Z] === ENRICH ITERATION 2 START | repo=rust-lang/regex sha=25a15e27 ===
+[2026-09-08T07:04:28Z] [iter=2] PHASE START: enrich repo=rust-lang/regex sha=25a15e27 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/25a15e27-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/25a15e272b3ae5aee76b525902c2ab91b0d9e12e.nq.gz
+[2026-09-08T07:04:38Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-08T07:05:17Z] [iter=2] AST store loaded triples=4211536 load_secs=37 mem_mb=1035 MB
+[2026-09-08T07:05:17Z] [iter=2] Step 2: Finding LSP targets mem_mb=1035 MB
+[2026-09-08T07:05:29Z] [iter=2] LSP targets found call_sites=25147 imports=0 extends=0 implements=147 secs=12
+[2026-09-08T07:05:33Z] [iter=2] Loaded checkpoint partial graph triples=90981
+[2026-09-08T07:05:43Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1035 MB
+[2026-09-08T07:06:07Z] [iter=2] Position index built positions=267262 nodes_with_types=305894 secs=25 mem_mb=1096 MB
+[2026-09-08T07:06:07Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1096 MB already_completed_types=[] already_completed_files=64
+[2026-09-08T07:06:07Z] [iter=2] Resolving target type target_type=call_site count=25147
+[2026-09-08T07:06:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=0 resolved=0 errors=0 current=regex-automata/src/meta/wrappers.rs
+[2026-09-08T07:14:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=9.6 files_done=1 resolved=66 errors=257 current=regex-cli/args/flags.rs
+[2026-09-08T07:16:04Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=11.6 files_done=3 resolved=141 errors=325 current=regex-automata/tests/meta/suite.rs
+[2026-09-08T07:16:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=12.5 files_done=5 resolved=158 errors=355 current=regex-cli/cmd/find/which/mod.rs
+[2026-09-08T07:17:58Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=6 resolved=183 errors=390 current=regex-automata/tests/fuzz/dense.rs
+[2026-09-08T07:19:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=14.8 files_done=8 resolved=207 errors=434 current=regex-cli/cmd/find/half/mod.rs
+[2026-09-08T07:20:55Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=9 resolved=244 errors=490 current=src/pattern.rs
+[2026-09-08T07:21:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=17.0 files_done=11 resolved=254 errors=508 current=regex-automata/tests/nfa/thompson/pikevm/suite.rs
+[2026-09-08T07:22:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=18.0 files_done=13 resolved=272 errors=542 current=regex-automata/src/nfa/thompson/pikevm.rs
+[2026-09-08T07:28:23Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=23.9 files_done=14 resolved=362 errors=744 current=regex-lite/src/int.rs
+[2026-09-08T07:28:55Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=24.5 files_done=16 resolved=376 errors=762 current=regex-automata/src/hybrid/regex.rs
+[2026-09-08T07:30:21Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=25.9 files_done=17 resolved=394 errors=811 current=regex-automata/tests/dfa/api.rs
+[2026-09-08T07:32:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=28.1 files_done=19 resolved=416 errors=885 current=src/regexset/string.rs
+[2026-09-08T07:33:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=29.3 files_done=20 resolved=424 errors=926 current=fuzz/fuzz_targets/ast_fuzz_match_bytes.rs
+[2026-09-08T07:35:28Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=31.0 files_done=22 resolved=482 errors=984 current=regex-automata/src/util/prefilter/mod.rs
+[2026-09-08T07:37:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=32.7 files_done=23 resolved=517 errors=1042 current=regex-cli/args/hybrid.rs
+[2026-09-08T07:38:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=33.6 files_done=24 resolved=535 errors=1071 current=regex-cli/args/mod.rs
+[2026-09-08T07:39:29Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=35.0 files_done=28 resolved=669 errors=1119 current=regex-cli/cmd/generate/serialize/dfa.rs
+[2026-09-08T07:40:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=36.4 files_done=29 resolved=789 errors=1166 current=regex-automata/src/util/pool.rs
+[2026-09-08T07:41:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=37.5 files_done=30 resolved=878 errors=1202 current=regex-syntax/src/hir/interval.rs
+[2026-09-08T07:43:54Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=39.4 files_done=31 resolved=954 errors=1268 current=regex-automata/src/util/lazy.rs
+[2026-09-08T07:49:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=44.8 files_done=33 resolved=980 errors=1450 current=regex-cli/cmd/generate/fowler.rs
+[2026-09-08T07:51:10Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=46.7 files_done=35 resolved=1165 errors=1513 current=regex-automata/src/util/prefilter/memmem.rs
+[2026-09-08T07:52:52Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=48.4 files_done=38 resolved=1217 errors=1571 current=regex-automata/src/nfa/thompson/backtrack.rs
+[2026-09-08T07:56:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=51.9 files_done=39 resolved=1308 errors=1690 current=regex-cli/args/api.rs
+[2026-09-08T07:57:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=53.2 files_done=40 resolved=1318 errors=1734 current=regex-automata/tests/dfa/onepass/suite.rs
+[2026-09-08T07:58:31Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=54.1 files_done=42 resolved=1367 errors=1762 current=regex-cli/args/dfa.rs
+[2026-09-08T07:59:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=55.0 files_done=43 resolved=1385 errors=1793 current=regex-automata/src/nfa/thompson/map.rs
+[2026-09-08T08:00:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=56.2 files_done=45 resolved=1429 errors=1836 current=regex-automata/src/meta/error.rs
+[2026-09-08T08:02:30Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=58.0 files_done=47 resolved=1461 errors=1897 current=regex-cli/cmd/find/capture/dfa.rs
+[2026-09-08T08:03:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=59.1 files_done=49 resolved=1481 errors=1933 current=regex-automata/src/util/prefilter/memchr.rs
+[2026-09-08T08:04:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=60.0 files_done=51 resolved=1508 errors=1963 current=regex-automata/src/util/sparse_set.rs
+[2026-09-08T08:05:00Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=60.5 files_done=52 resolved=1524 errors=1982 current=tests/regression.rs
+[2026-09-08T08:06:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=61.8 files_done=54 resolved=1569 errors=2026 current=src/builders.rs
+[2026-09-08T08:09:22Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=64.9 files_done=55 resolved=1604 errors=2130 current=regex-automata/src/util/prefilter/byteset.rs
+[2026-09-08T08:10:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=65.7 files_done=61 resolved=1670 errors=2158 current=tests/suite_string.rs
+[2026-09-08T08:11:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=66.6 files_done=62 resolved=1691 errors=2187 current=regex-automata/tests/lib.rs
+[2026-09-08T08:12:07Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=67.6 files_done=63 resolved=1700 errors=2223 current=regex-syntax/src/debug.rs
+[2026-09-08T08:13:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=68.6 files_done=66 resolved=1775 errors=2255 current=tests/fuzz/mod.rs
+[2026-09-08T08:15:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=70.8 files_done=68 resolved=1818 errors=2330 current=regex-lite/tests/fuzz/mod.rs
+[2026-09-08T08:16:21Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=71.9 files_done=70 resolved=1829 errors=2367 current=regex-automata/tests/fuzz/sparse.rs
+[2026-09-08T08:17:04Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=72.6 files_done=73 resolved=1882 errors=2391 current=regex-automata/src/nfa/thompson/error.rs
+[2026-09-08T08:17:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=73.3 files_done=75 resolved=1901 errors=2414 current=regex-cli/args/backtrack.rs
+[2026-09-08T08:19:07Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=74.7 files_done=78 resolved=1920 errors=2460 current=regex-cli/args/patterns.rs
+[2026-09-08T08:19:48Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=75.3 files_done=80 resolved=1983 errors=2483 current=fuzz/fuzz_targets/ast_roundtrip.rs
+[2026-09-08T08:20:49Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=76.4 files_done=85 resolved=2057 errors=2517 current=regex-lite/src/pool.rs
+[2026-09-08T08:21:23Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=76.9 files_done=89 resolved=2113 errors=2536 current=regex-automata/src/util/prefilter/teddy.rs
+[2026-09-08T08:22:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=78.2 files_done=91 resolved=2154 errors=2578 current=regex-cli/main.rs
+[2026-09-08T08:23:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=78.8 files_done=98 resolved=2213 errors=2598 current=regex-syntax/src/parser.rs
+[2026-09-08T08:23:44Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=79.3 files_done=99 resolved=2215 errors=2615 current=tests/searcher.rs
+[2026-09-08T08:24:14Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=79.8 files_done=107 resolved=2248 errors=2632 current=src/lib.rs
+[2026-09-08T08:24:40Z] [iter=2] Target type resolved target_type=call_site resolved=2320 errors=2645 secs=4713 mem_mb=1098 MB
+[2026-09-08T08:24:40Z] [iter=2] Resolving target type target_type=implements_clause count=147
+[2026-09-08T08:24:47Z] [iter=2] HEARTBEAT target_type=implements_clause elapsed_min=80.3 files_done=1 resolved=34 errors=0 current=regex-syntax/src/hir/visitor.rs
+[2026-09-08T08:24:51Z] [iter=2] Target type resolved target_type=implements_clause resolved=87 errors=0 secs=10 mem_mb=1098 MB
+[2026-09-08T08:25:11Z] [iter=2] Step 5: Writing final enrichment file triples=179566
+[2026-09-08T08:25:15Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/25a15e272b3ae5aee76b525902c2ab91b0d9e12e.nq.gz size_kb=3808
+[2026-09-08T08:25:15Z] [iter=2] Checkpoint cleared (enrichment complete)
+[2026-09-08T08:25:15Z] [iter=2] PHASE END: enrich elapsed_s=4848 elapsed_min=80.8 total_triples=179566
